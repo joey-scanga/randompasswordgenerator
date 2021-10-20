@@ -50,4 +50,4 @@ def buildPassword(allDict, passLength):
     password = ""
     return (password.join(passwordarr))
         
-main()
+buildPassword()
