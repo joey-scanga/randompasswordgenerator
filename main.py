@@ -1,6 +1,6 @@
 from random import random
 
-def main():
+def newPassword():
     wordDictionary = ['a', 'an','dog', 'cat', 'duck', 'real', 'card', 'car', 'truck', 'slam', 'timtam']
     letterDictionary = ['a', 'b', 'c','d', 'e','f','g','h','i','j','k','l','m','n','o','p',
     'q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N',
@@ -28,7 +28,7 @@ def buildPassword(allDict, passLength):
             ctype = 0
         elif randType >= 0.25 and randType < 0.50:
             ctype = 1
-        elif randType >= 0.25 and randType < 0.50:
+        elif randType >= 0.50 and randType < 0.75:
             ctype = 2
         else:
             ctype = 3
