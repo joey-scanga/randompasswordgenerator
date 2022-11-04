@@ -1,5 +1,4 @@
-from random import random, randrange
-import math
+from random import randrange
 
 wordDictionary = ['a', 'an','dog', 'cat', 'duck', 'real', 'card', 'car', 'truck', 'word', 'python']
 letterDictionary = ['a', 'b', 'c','d', 'e','f','g','h','i','j','k','l','m','n','o','p',
